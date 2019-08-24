@@ -11,5 +11,4 @@ class StudentSerializer(serializers.ModelSerializer):
             'regNo',
             'birthday',
             'club_name',
-            'extra_curricular'
         ]
