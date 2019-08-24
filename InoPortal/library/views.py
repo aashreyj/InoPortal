@@ -13,6 +13,8 @@ class LibStudentViewSet(viewsets.ModelViewSet):
     def update(self, request, *args, **kwargs):
         instance = self.get_object()
         instance.entry_time = request.data.get("entry_time")
+        instance.book1 = request.data.get("book1")
+        instance.book2 = request.data.get("book2")
         serializer = self.get_serializer(instance, data=request.data)
         serializer.is_valid(raise_exception=True)
         instance.save()

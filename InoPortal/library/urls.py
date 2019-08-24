@@ -10,6 +10,7 @@ urlpatterns = [
     )),
     path('entry/<str:roll>', LibStudentViewSet.as_view(
         {
+            'get': 'retrieve',
             'put': 'update'
         }
     ))

@@ -9,5 +9,7 @@ class LibStudentSerializer(serializers.ModelSerializer):
             'name',
             'roll',
             'entry_time',
-            'laptop'
+            'laptop',
+            'book1',
+            'book2'
         ]
