@@ -16,5 +16,5 @@ class Student(models.Model):
 
     entry_time = models.DateTimeField(blank=True, null=True)
     laptop = models.CharField(max_length=10, blank=True, null=True)
-    book1 = models.TextField(max_length=50, unique=True, blank=True)
-    book2 = models.TextField(max_length=50, unique=True, blank=True)
+    book1 = models.TextField(max_length=50, blank=True, null=True)
+    book2 = models.TextField(max_length=50, blank=True, null=True)
