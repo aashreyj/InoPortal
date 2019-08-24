@@ -2,14 +2,11 @@ from rest_framework import serializers
 from student.models import Student
 
 
-class LibStudentSerializer(serializers.ModelSerializer):
+class AttendanceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Student
         fields = [
             'name',
             'roll',
-            'entry_time',
-            'laptop',
-            'book1',
-            'book2'
+            'attendance'
         ]

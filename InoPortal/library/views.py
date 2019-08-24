@@ -1,6 +1,6 @@
 from rest_framework import viewsets
 from .serializers import LibStudentSerializer
-from .models import Student
+from student.models import Student
 from rest_framework.response import Response
 # Create your views here.
 
