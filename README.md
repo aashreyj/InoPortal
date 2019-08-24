@@ -1,5 +1,5 @@
 # InoPortal 
-##A Portal for Automation and Simplification of College Paperwork
+## A Portal for Automation and Simplification of College Paperwork
 
 ### Track:
 Automation in paperwork and procedures in institutes
