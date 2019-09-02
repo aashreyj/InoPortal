@@ -9,7 +9,7 @@ In today's fast and digital world, time is of the utmost importance. However, a 
 
 Also, in college, it is difficult and impractical to carry around multiple ID's such as Institute ID, Mess ID, Library Card,etc. Hence, InoPortal also utilizes the latest RFID tags to store all information about a student in a single database. Data can be requested from this database securely and immediately with the help of RFID readers. Thus, a cost-effective and easy to use solution to the problem of multiple ID's is implemented in this portal.
 
-### Technology used:
+### Tech Stack:
 The front-end of this portal is made in HTML, CSS and JavaScript along with Bootstrap3. The HTTP requests are made through the Ajax framework.
  
 The server-end of the application is prepared using the Django-framework. It uses several views, models and serializers to render JSON data to the client making the RESTful API call. 
